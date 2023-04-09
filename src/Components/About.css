@@ -1,0 +1,147 @@
+.about-image{
+    margin: 6rem 0;
+    width: 60vw;
+}
+
+.about-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-right-head-text{
+    font-family: "Louis Bold",sans-serif;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    color: #ff4952;
+    font-weight: 500;
+
+}
+
+.about-right-main-head{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.about-right-location{
+    
+    text-align: center;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    font-family: "Louis Bold",sans-serif;
+    font-weight: 400;
+}
+
+.about-right-aboutMe{
+  padding: 2.5rem 0;
+  font-family: "Louis Regular", sans-serif;
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #000000;
+  text-align: left;
+  text-align: center;
+}
+
+
+.about-resume-button {
+  margin-bottom: 25px;
+}
+
+.about-resume-button  {
+  background-color: none;
+  margin-top: 4rem;
+}
+
+.about-resume-button > a::before {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid transparent;
+}
+
+.about-resume-button > a span {
+  color: #ffffff;
+}
+
+.about-resume-button > a svg {
+  stroke: #ffffff;
+}
+
+.about-resume-button > a:hover::before {
+  border: 1px solid rgba(255, 73, 82, 0.6);
+}
+
+.about-resume-button  a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Louis Bold";
+}
+
+.about-resume-button > a {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.about-resume-button > a:hover::before {
+  width: 108%;
+  background: #ff4952;
+}
+
+.about-resume-button > a:hover span {
+  color: #ffffff;
+}
+
+.about-resume-button > a:hover svg {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  stroke: #ffffff;
+}
+
+.about-resume-button > a::before {
+  content: "";
+  position: absolute;
+  top: 5;
+  left: -10px;
+  display: block;
+  border-radius: 30px;
+  background: rgba(255, 73, 82, 0);
+  border: 1px solid rgba(255, 73, 82, 0.6);
+  border-right: 1px solid transparent;
+  width: 60px;
+  height: 60px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.about-resume-button > a span {
+  position: relative;
+  font-size: 18px;
+  line-height: 0.56;
+  font-weight: 900;
+  vertical-align: middle;
+  color: #000000;
+}
+
+.about-resume-button > a svg {
+  position: relative;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #000000;
+  stroke-width: 2;
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.about-resume-button > a:active {
+  -webkit-transform: scale(0.96);
+  transform: scale(0.96);
+}

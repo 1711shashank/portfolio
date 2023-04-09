@@ -1,0 +1,19 @@
+.body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    max-width: 100vw;
+    padding: 6.5rem 8rem;
+    overflow: hidden;
+    background: url(../assets/dots.png) repeat;
+    background-color: #fff;
+    background-size: contain;
+
+}
+
+@media (max-width: 800px) {
+    .body{
+        padding: 6.5rem 4rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

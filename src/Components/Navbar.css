@@ -64,8 +64,8 @@ button {
   .navbar-avatar {
     display: flex;
     position: absolute;
-    top: 8px;
-    left: 20px;
+    top: 1.5rem;
+    left: 2rem;
   }
 
   .navbar-links {

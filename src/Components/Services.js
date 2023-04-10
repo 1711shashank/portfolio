@@ -1,10 +1,44 @@
 import React from 'react'
+import './Services.css'
 
 const Services = () => {
     return (
         <>
-            <div className=''>
-                <img src={'https://i.pinimg.com/originals/d6/af/b6/d6afb6c5702631ed7e304d2ac40fb4f2.gif'} width='300px' />
+            <div className='services'>
+                <div className='services-left'>
+                    <h4 className="head-text">What I do ?</h4>
+                    <h2 className="main-head">My Services</h2>
+                    <div className='service-icon-row'>
+                        <div className='service-icon-block'>
+                            <img
+                                src="https://www.varunvishal.dev/static/media/ui-designing.f4144197.svg"
+                                alt="web"
+                                className="service-icon"
+                            />
+                            <h4 className="service-name">Web Development</h4>
+                        </div>
+                        <div className='service-icon-block'>
+                            <img
+                                src="https://www.varunvishal.dev/static/media/web-development.c166be08.svg"
+                                alt="web"
+                                className="service-icon"
+                            />
+                            <h4 className="service-name">Backend Development</h4>
+                        </div>
+                        <div className='service-icon-block'>
+                            <img
+                                src="https://www.varunvishal.dev/static/media/mobile-development.0cb30230.svg"
+                                alt="web"
+                                className="service-icon"
+                            />
+                            <h4 className="service-name">Salesforce Development</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='services-right'>
+                    <img src={'https://i.pinimg.com/originals/d6/af/b6/d6afb6c5702631ed7e304d2ac40fb4f2.gif'} />
+                </div>
 
             </div>
         </>

@@ -1,0 +1,76 @@
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.services-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 50%; */
+}
+
+.service-icon-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service-icon-block {
+    padding: 0 1.5rem;
+
+}
+
+.service-icon {
+    max-width: 50px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.service-name {
+    font-family: "Louis Regular", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.services-right {
+    margin: 5vw;
+    /* width: 50%; */
+}
+
+.services-right>img {
+    border-radius: 8px;
+    width: 390px;
+}
+
+
+@media (max-width: 990px) {
+
+    
+    .services {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    .services-left {
+        flex-direction: column;
+        align-items: center;
+        /* width: 50%; */
+    }
+
+    .services-right>img {
+        border-radius: 8px;
+        width: 60vw;
+    }
+    .service-icon-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

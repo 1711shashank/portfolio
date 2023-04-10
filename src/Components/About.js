@@ -11,8 +11,8 @@ const About = () => {
                     <img className='about-image' src={require('../assets/profile.png')} />
                 </div>
                 <div className='about-right'>
-                    <h4 className='about-right-head-text'> Who am I ? </h4>
-                    <h2 className='about-right-main-head'> About me </h2>
+                    <h4 className='head-text'> Who am I ? </h4>
+                    <h2 className='main-head'> About me </h2>
                     <p className='about-right-location'> Kolkata, India | React JS | Node | Salesforce</p>
                     <p className='about-right-aboutMe'> A Developer and A UI/UX Designer. Interested in coding, but not everything about me is designs and code snippets. I have a particular proclivity for playing the guitar and various other instruments, taking an interest in music composition and travelling. </p>
                     <div class="about-resume-button">

@@ -34,7 +34,7 @@
 }
 
 .home-message {
-    font-size: 7.5rem;
+    font-size: 6rem;
     letter-spacing: -2px;
     margin: 3rem 1rem;
     font-family: "Louis Bold", sans-serif;
@@ -49,6 +49,7 @@
     /* margin-bottom: 3rem; */
     font-weight: 400;
     line-height: 1.2;
+    width: 80%;
 }
 
 .home-right {
@@ -144,7 +145,7 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 990px) {
     .home-body {
         display: flex;
         flex-wrap: wrap;
@@ -155,14 +156,25 @@
     .home-message {
         padding: 0;
         margin: 0 0 inherit 0;
-        font-size: 2.7rem;
+        font-size: 4rem;
         letter-spacing: normal;
         text-align: center;
     }
 
     .sub-text {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
         letter-spacing: normal;
+        width: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .home-message { 
+        font-size: 2.7rem;
+    }
+    .sub-text {
+        font-size: 2rem;
+
     }
 }

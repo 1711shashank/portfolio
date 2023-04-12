@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* width: 50%; */
 }
 
 .service-icon-row {
@@ -21,7 +20,6 @@
 
 .service-icon-block {
     padding: 0 1.5rem;
-
 }
 
 .service-icon {
@@ -38,7 +36,6 @@
 
 .services-right {
     margin: 5vw;
-    /* width: 50%; */
 }
 
 .services-right>img {
@@ -49,7 +46,6 @@
 
 @media (max-width: 990px) {
 
-    
     .services {
         flex-direction: column-reverse;
         align-items: center;
@@ -60,7 +56,6 @@
     .services-left {
         flex-direction: column;
         align-items: center;
-        /* width: 50%; */
     }
 
     .services-right>img {

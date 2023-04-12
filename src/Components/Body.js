@@ -3,6 +3,7 @@ import Home from './Home';
 import './Body.css';
 import About from './About';
 import Services from './Services';
+import Skills from './Skills';
 
 
 const Body = () => {
@@ -11,6 +12,7 @@ const Body = () => {
         <Home/>
         <About/>
         <Services/>
+        <Skills/>
         
     </div>
   )

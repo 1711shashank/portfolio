@@ -14,7 +14,7 @@ const About = () => {
                     <h4 className='head-text'> Who am I ? </h4>
                     <h2 className='main-head'> About me </h2>
                     <p className='about-right-location'> Kolkata, India | React JS | Node | Salesforce</p>
-                    <p className='about-right-aboutMe'> A Developer and A UI/UX Designer. Interested in coding, but not everything about me is designs and code snippets. I have a particular proclivity for playing the guitar and various other instruments, taking an interest in music composition and travelling. </p>
+                    <p className='about-right-aboutMe'> As a developer, I'm passionate about coding and creating innovative solutions. But not everything about me is code snippets. I have a particular fondness for writing Shayari and expressing myself through poetry. I also love traveling and experiencing new cultures.</p>
                     <div class="about-resume-button">
                         <a href={require("../assets/resume.pdf")} target="_blank">
                             <span>Resume</span>

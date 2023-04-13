@@ -4,6 +4,7 @@ import './Body.css';
 import About from './About';
 import Services from './Services';
 import Skills from './Skills';
+import Contact from './Contact';
 
 
 const Body = () => {
@@ -13,6 +14,7 @@ const Body = () => {
         <About/>
         <Services/>
         <Skills/>
+        <Contact/>
         
     </div>
   )

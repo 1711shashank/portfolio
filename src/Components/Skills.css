@@ -14,7 +14,7 @@
 
 .skills-image{
     width: 40rem;
-    margin-right: 10rem;
+    margin-right: 8%;
     border-radius: 8px;
 }
 
@@ -32,6 +32,13 @@
     justify-content: space-between;
 }
 
+.list-column > *{
+    display: flex;
+    width: 100%;
+    float: left;
+    min-width: 12rem;
+}
+
 .list-item-head{
     margin-bottom: 0.8rem;
     font-size: 1.6rem;
@@ -45,7 +52,6 @@
 }
 
 .list-item{
-    display: list-item;
     padding: 1.2rem 0;
     font-size: 1.6rem;
     font-weight: 300;

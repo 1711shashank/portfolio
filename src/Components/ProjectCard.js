@@ -1,0 +1,33 @@
+import React from 'react'
+
+const ProjectCard = (props) => {
+    const { title, desc, sourceImg, cardSide } = props;
+    const cardMargin = cardSide === 'Left' ? '0 0 18rem 0' : '18rem 0 0 0';
+    return (
+        <>
+            <div className='projectCard' style={{ textAlign: cardSide, margin: cardMargin }}>
+                <h2>{title}</h2>
+                <h4>{desc}</h4>
+                <div className='projectCard-img-wrapper'>
+                    <img
+                        src={sourceImg}
+                        alt="ui"
+                        className="projectCard-img"
+                    />
+                </div>
+                {/* <div className="overlay"> */}
+                    <div class="projectCard-button">
+                        <a href={'https://www.facebook.com'} target="_blank" rel="noreferrer">
+                            <span>View</span>
+                            <svg width="13px" height="10px" viewBox="0 0 15 10">
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                {/* </div> */}
+            </div>
+        </>
+    )
+}
+
+export default ProjectCard

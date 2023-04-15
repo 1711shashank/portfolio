@@ -8,15 +8,41 @@ const Testimonials = () => {
         {
             id: 0,
             data: {
-                imgSrc: '',
+                imgSrc: 'https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png',
+                reviewRating: 4,
+                reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
+                reviewerName: 'Test Name',
+                reviewerLocation: 'Kolka,ta, India',
+            }
+        }, {
+            id: 1,
+            data: {
+                imgSrc: 'https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png',
                 reviewRating: 5,
-                reviewMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
+                reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
+                reviewerName: 'Test Name',
+                reviewerLocation: 'Kolka,ta, India',
+            }
+        }, {
+            id: 2,
+            data: {
+                imgSrc: 'https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png',
+                reviewRating: 5,
+                reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
+                reviewerName: 'Test Name',
+                reviewerLocation: 'Kolka,ta, India',
+            }
+        }, {
+            id: 3,
+            data: {
+                imgSrc: 'https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png',
+                reviewRating: 4,
+                reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',
                 reviewerLocation: 'Kolka,ta, India',
             }
         }
     ]
-    console.log(testimonialDetailsArray);
 
     return (
         <>
@@ -24,9 +50,9 @@ const Testimonials = () => {
                 <h4 className="head-text">Testimonials</h4>
                 <h2 className="main-head">My Clients</h2>
                 <div className='testimonials-body'>
-                {
+                    {
                         testimonialDetailsArray.map((curEle) => (
-                            <TestimonialCard data={curEle} key={curEle.id} />
+                            <TestimonialCard data={curEle.data} key={curEle.id} />
                         ))
                     }
                 </div>

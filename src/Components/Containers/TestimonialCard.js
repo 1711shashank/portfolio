@@ -3,11 +3,12 @@ import GradeIcon from '@mui/icons-material/Grade';
 
 const TestimonialCard = (props) => {
 
-    console.log('test');
-    useEffect(() => {
-        console.log('kjhg');
-      },[])
-    
+    const { imgSrc, reviewRating, reviewerMessage, reviewerName, reviewerLocation } = props.data;
+
+    const gradeIcons = [];
+    for (let index = 0; index < reviewRating; index++) {
+        gradeIcons.push(<GradeIcon key={index} />);
+    }
 
     return (
         <>
@@ -15,23 +16,19 @@ const TestimonialCard = (props) => {
                 <div className='testimonialCard-head'>
                     <img
                         className='avatar-image'
-                        src='https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png'
+                        src={imgSrc}
                         alt=''
                     />
                     <div className='testimonialCard-start'>
-                        <GradeIcon/>
-                        <GradeIcon/>
-                        <GradeIcon/>
-                        <GradeIcon/>
-                        <GradeIcon/>
+                        {gradeIcons}
                     </div>
                 </div>
                 <div className='testimonialCard-review'>
-                    <h3>Work been done in a professional way. App is working perfectly. Thanks.</h3>
+                    <h3>{reviewerMessage}</h3>
                 </div>
                 <div className='testimonialCard-reviewer-details'>
-                    <h3>Name</h3>
-                    <h3>India</h3>
+                    <h3>{reviewerName}</h3>
+                    <h3>{reviewerLocation}</h3>
                 </div>
             </div>
 

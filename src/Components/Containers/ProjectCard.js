@@ -15,16 +15,7 @@ const ProjectCard = (props) => {
                         className="projectCard-img"
                     />
                 </div>
-                {/* <div className="overlay"> */}
-                    <div class="projectCard-button">
-                        <a href={'https://www.facebook.com'} target="_blank" rel="noreferrer">
-                            <span>View</span>
-                            <svg width="13px" height="10px" viewBox="0 0 15 10">
-                                <polyline points="8 1 12 5 8 9"></polyline>
-                            </svg>
-                        </a>
-                    </div>
-                {/* </div> */}
+               
             </div>
         </>
     )

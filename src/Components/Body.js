@@ -6,6 +6,7 @@ import Services from './Services';
 import Skills from './Skills';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Testimonials from './Testimonials';
 
 
 const Body = () => {
@@ -16,7 +17,7 @@ const Body = () => {
         <Services/>
         <Portfolio/>
         <Skills/>
-
+        <Testimonials/>
         <Contact/>
         
     </div>

@@ -40,7 +40,7 @@ const Skills = () => {
 
     return (
         <>
-            <div className="skills">
+            <div className="skills comp-head">
 
                 <h4 className="head-text">What I Know?</h4>
                 <h2 className="main-head">My Skills</h2>

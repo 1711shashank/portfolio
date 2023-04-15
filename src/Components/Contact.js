@@ -7,7 +7,7 @@ const Contact = () => {
     const status = false;
     return (
         <>
-            <div className='contact'>
+            <div className='contact comp-head'>
                 <h4 className="head-text">Let's work together</h4>
                 <h2 className="main-head">Contact Me</h2>
 

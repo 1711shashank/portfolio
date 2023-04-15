@@ -7,11 +7,26 @@
     background: url(../assets/dots.png) repeat;
     background-color: #fff;
     background-size: contain;
+}
 
+.comp-head {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media (max-width: 990px) {
+    .comp-head {
+        margin-top: 5rem;
+        align-items: center;
+        border-top: 1px solid rgba(0,0,0,.1);
+        padding-top: 3rem;
+    }
 }
 
 @media (max-width: 800px) {
-    .body{
+    .body {
         padding: 6.5rem 4rem;
         margin-left: 0;
         margin-right: 0;

@@ -46,7 +46,7 @@ const Testimonials = () => {
 
     return (
         <>
-            <div className='testimonials'>
+            <div className='testimonials comp-head'>
                 <h4 className="head-text">Testimonials</h4>
                 <h2 className="main-head">My Clients</h2>
                 <div className='testimonials-body'>

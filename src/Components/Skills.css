@@ -70,13 +70,12 @@
         justify-content: space-between;
     }
     .skills-image{
-        width: 70vw;
-        margin-right: 0rem;
-        margin-bottom: 5rem;
+        display: none;
     }
-        
-    .list-column{
-        align-items: center;
+
+    .list-column > *{
+        display: inline-block;
+        width: 70vw;
     }
 
 }

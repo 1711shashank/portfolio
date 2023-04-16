@@ -4,7 +4,6 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 
 const Contact = () => {
 
-    const status = false;
     return (
         <>
             <div className='contact comp-head'>

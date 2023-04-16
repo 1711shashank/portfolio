@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 
 const About = () => {
@@ -8,7 +7,7 @@ const About = () => {
         <>
             <div className='about'>
                 <div className='about-left'>
-                    <img className='about-image' src={require('../assets/profile.png')} />
+                    <img className='about-image' src={require('../assets/profile.png')} alt=''/>
                 </div>
                 <div className='about-right'>
                     <h4 className='head-text'> Who am I ? </h4>
@@ -16,7 +15,7 @@ const About = () => {
                     <p className='about-right-location'> Kolkata, India | React JS | Node | Salesforce</p>
                     <p className='about-right-aboutMe'> As a developer, I'm passionate about coding and creating innovative solutions. But not everything about me is code snippets. I have a particular fondness for writing Shayari and expressing myself through poetry. I also love traveling and experiencing new cultures.</p>
                     <div class="about-resume-button">
-                        <a href={require("../assets/resume.pdf")} target="_blank">
+                        <a href={require("../assets/resume.pdf")} target="_blank" alt='' rel="noreferrer">
                             <span>Resume</span>
                             <svg width="13px" height="10px" viewBox="0 0 15 10">
                                 <path d="M1,5 L11,5"></path>

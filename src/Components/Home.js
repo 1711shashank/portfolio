@@ -12,7 +12,7 @@ const Home = () => {
                 <div className='home-body'>
                     <div className='home-left'>
                         <h1 className="home-message glitch">Hello, I’m Kumar Shashank</h1>
-                        <h2 className="sub-text"> A <span className='inner-span'>React Native Developer</span>, passionate about creating minimal interfaces.</h2>
+                        <h2 className="sub-text"> A <span className='inner-span'>React Developer</span>, passionate about creating minimal interfaces.</h2>
                     </div>
                     <div className='home-right'>
                         <div className='social-container'>

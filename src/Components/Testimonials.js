@@ -12,7 +12,7 @@ const Testimonials = () => {
                 reviewRating: 4,
                 reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',
-                reviewerLocation: 'Kolka,ta, India',
+                reviewerLocation: 'Kolkata, India',
             }
         }, {
             id: 1,
@@ -21,7 +21,7 @@ const Testimonials = () => {
                 reviewRating: 5,
                 reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',
-                reviewerLocation: 'Kolka,ta, India',
+                reviewerLocation: 'Kolkata, India',
             }
         }, {
             id: 2,
@@ -30,7 +30,7 @@ const Testimonials = () => {
                 reviewRating: 5,
                 reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',
-                reviewerLocation: 'Kolka,ta, India',
+                reviewerLocation: 'Kolkata, India',
             }
         }, {
             id: 3,
@@ -39,7 +39,7 @@ const Testimonials = () => {
                 reviewRating: 4,
                 reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',
-                reviewerLocation: 'Kolka,ta, India',
+                reviewerLocation: 'Kolkata, India',
             }
         }
     ]

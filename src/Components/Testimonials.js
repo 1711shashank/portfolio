@@ -8,7 +8,7 @@ const Testimonials = () => {
         {
             id: 0,
             data: {
-                imgSrc: 'https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png',
+                imgSrc: require('../assets/avatar5.png'),
                 reviewRating: 4,
                 reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',
@@ -17,7 +17,7 @@ const Testimonials = () => {
         }, {
             id: 1,
             data: {
-                imgSrc: 'https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png',
+                imgSrc: require('../assets/avatar1.png'),
                 reviewRating: 5,
                 reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',
@@ -26,7 +26,7 @@ const Testimonials = () => {
         }, {
             id: 2,
             data: {
-                imgSrc: 'https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png',
+                imgSrc: require('../assets/avatar2.png'),
                 reviewRating: 5,
                 reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',
@@ -35,7 +35,7 @@ const Testimonials = () => {
         }, {
             id: 3,
             data: {
-                imgSrc: 'https://www.varunvishal.dev/static/media/avatar6.eabfed3b.png',
+                imgSrc: require('../assets/avatar3.png'),
                 reviewRating: 4,
                 reviewerMessage: 'Amazing Developer. Highly recommended for any front-end development project and looking forward for my next project.',
                 reviewerName: 'Test Name',

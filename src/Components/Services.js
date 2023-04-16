@@ -11,7 +11,7 @@ const Services = () => {
                     <div className='service-icon-row'>
                         <div className='service-icon-block'>
                             <img
-                                src="https://www.varunvishal.dev/static/media/ui-designing.f4144197.svg"
+                                src={require("../assets/web-development.png")}
                                 alt="web"
                                 className="service-icon"
                             />
@@ -19,7 +19,7 @@ const Services = () => {
                         </div>
                         <div className='service-icon-block'>
                             <img
-                                src="https://www.varunvishal.dev/static/media/web-development.c166be08.svg"
+                                src={require("../assets/mobile-development.png")}
                                 alt="web"
                                 className="service-icon"
                             />
@@ -27,7 +27,7 @@ const Services = () => {
                         </div>
                         <div className='service-icon-block'>
                             <img
-                                src="https://www.varunvishal.dev/static/media/mobile-development.0cb30230.svg"
+                                src={require("../assets/salesforce-development.png")}
                                 alt="web"
                                 className="service-icon"
                             />

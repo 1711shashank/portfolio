@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<>
 			<nav className='navbar'>
-				<img className='navbar-avatar' src="https://www.varunvishal.dev/static/media/avatar2.d5af6df4.png"/>
+				<img className='navbar-avatar' src={require('../assets/avatar6.png')}/>
 				<div className={Mobile ? "navbar-mobile" : "navbar-links"} onClick={() => setMobile(false)}>
 					<a href='#About'> About</a>
  					<a href='#Services'> Services</a>

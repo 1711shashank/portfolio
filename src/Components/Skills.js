@@ -22,17 +22,14 @@ const Skills = () => {
             {
                 title: "VS Code",
                 id: 0,
-                src: require('../assets/vscode.svg'),
             },
             {
                 title: "Figma",
                 id: 1,
-                src: require("../assets/vscode.svg"),
             },
             {
                 title: "Salesforce",
                 id: 2,
-                src: require("../assets/vscode.svg"),
             },
         ],
     };
@@ -65,12 +62,6 @@ const Skills = () => {
                             <h4 class="list-item-head">TOOLS I USE</h4>
                             {skillsArray.tools.map((tool) => (
                                 <li class="list-item" key={tool.id}>
-
-                                    {/* <img
-                                        src={tool.src}
-                                        alt="logo"
-                                        className="tool-icon"
-                                    /> */}
                                     {tool.title}
                                 </li>
                             ))}

@@ -37,7 +37,6 @@
     margin-bottom: 1rem;
 
 }
-
 .projectCard>h4 {
     font-family: "Louis Bold", sans-serif;
     font-size: 1.8rem;
@@ -45,12 +44,31 @@
     color: rgba(0, 0, 0, .5);
     margin-bottom: 1rem;
 }
-
+.projectCard-img-wrapper{
+    position: relative;
+    width: 100%;
+}
 .projectCard-img {
     width: 35vw;
     margin-top: 3.5rem;
 }
 
+.projectCard-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.projectCard-img-wrapper .projectCard-button{
+    display: none;
+}
+.projectCard-img-wrapper:hover .projectCard-button{
+    display: block;
+}
+.projectCard-img-wrapper:hover .projectCard-img{
+    filter: brightness(0.7);
+}
 
 
 

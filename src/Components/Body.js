@@ -17,7 +17,7 @@ const Body = () => {
         <Services/>
         <Portfolio/>
         <Skills/>
-        <Testimonials/>
+        {/* <Testimonials/> */}
         <Contact/>   
     </div>
   )

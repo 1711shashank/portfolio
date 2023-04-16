@@ -34,7 +34,7 @@ a {
   width: 75%;
 }
 
-.navbar-links a {
+.navbar-mobile > a, .navbar-links > a {
   color: black;
   font-size: 16px;
   padding: 1rem;

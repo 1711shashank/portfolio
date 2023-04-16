@@ -6,7 +6,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className='contact comp-head'>
+            <div id="Contact" className='contact comp-head'>
                 <h4 className="head-text">Let's work together</h4>
                 <h2 className="main-head">Contact Me</h2>
 

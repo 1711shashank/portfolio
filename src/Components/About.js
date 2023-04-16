@@ -5,7 +5,7 @@ import './About.css';
 const About = () => {
     return (
         <>
-            <div className='about'>
+            <div id='About' className='about'>
                 <div className='about-left'>
                     <img className='about-image' src={require('../assets/profile.png')} alt=''/>
                 </div>

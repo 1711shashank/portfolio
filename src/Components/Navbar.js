@@ -13,7 +13,7 @@ const Navbar = () => {
 				<div className={Mobile ? "navbar-mobile" : "navbar-links"} onClick={() => setMobile(false)}>
 					<a href='#About'> About</a>
  					<a href='#Services'> Services</a>
- 					<a href='#Projects'> Projects</a>
+ 					<a href='#Portfolio'> Portfolio</a>
  					<a href='#Skills'> Skills</a>
  					<a href='#Contact'> Contact</a>
 				</div>

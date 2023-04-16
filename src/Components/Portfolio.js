@@ -5,7 +5,7 @@ import ProjectCard from './Containers/ProjectCard'
 const Portfolio = () => {
     return (
         <>
-            <div className="portfolio comp-head">
+            <div id='Portfolio' className="portfolio comp-head">
                 <h4 className="head-text">Portfolio</h4>
                 <h2 className="main-head">Web Development</h2>
                 <div className='portfolio-body'>

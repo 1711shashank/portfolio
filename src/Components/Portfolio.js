@@ -9,11 +9,10 @@ const Portfolio = () => {
                 <h4 className="head-text">Portfolio</h4>
                 <h2 className="main-head">Web Development</h2>
                 <div className='portfolio-body'>
-                    <ProjectCard cardSide={'Left'} title={'E-commerce Website'} desc={'Amazon clone'} sourceImg={require("../assets/amazonClone.png") }/>
-                    <ProjectCard cardSide={'Right'} title={'SplitWise'} desc={'Expense sharing'} sourceImg={require("../assets/splitwise.jpeg") }/>
-                    <ProjectCard cardSide={'Left'} title={'Link Condenser'} desc={'Shorten long website links'} sourceImg={require("../assets/linkCondenser.png") }/>
-                    <ProjectCard cardSide={'Right'}title={'Activity Manager'} desc={'Manager you every day Activity'} sourceImg={require("../assets/activityManager.png") }/>
-
+                    <ProjectCard cardSide={'Left'}  redirectURL={'https://clone-af8c1.web.app/'}  title={'E-commerce Website'} desc={'Amazon clone'} sourceImg={require("../assets/amazonClone.png") }/>
+                    <ProjectCard cardSide={'Right'} redirectURL={'https://splitwise-client.onrender.com'}  title={'SplitWise'} desc={'Expense sharing'} sourceImg={require("../assets/splitwise.jpeg") }/>
+                    <ProjectCard cardSide={'Left'}  redirectURL={'https://shorturl-shashank.netlify.app'}  title={'Link Condenser'} desc={'Shorten long website links'} sourceImg={require("../assets/linkCondenser.png") }/>
+                    <ProjectCard cardSide={'Right'} redirectURL={'https://task-manager-e3i7.onrender.com'}  title={'Activity Manager'} desc={'Manager you every day Activity'} sourceImg={require("../assets/activityManager.png") }/>
                 </div>
             </div>
         </>

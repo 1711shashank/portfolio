@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProjectCard = (props) => {
-    const { title, desc, sourceImg, cardSide } = props;
+    const { title, desc, redirectURL, sourceImg, cardSide } = props;
     const cardMargin = cardSide === 'Left' ? '0 0 18rem 0' : '18rem 0 0 0';
     return (
         <>
@@ -14,10 +14,10 @@ const ProjectCard = (props) => {
                         alt="ui"
                         className="projectCard-img"
                     ></img>
-                    
+
                     <div class="projectCard-button about-resume-button">
-                        <a href={require("../../assets/resume.pdf")} target="_blank" alt='' rel="noreferrer">
-                            <span>View</span>
+                        <a href={redirectURL} target="_blank" alt='' rel="noreferrer">
+                            <span style={{color:'white'}}> View</span>
                             <svg width="13px" height="10px" viewBox="0 0 15 10">
                                 <path d="M1,5 L11,5"></path>
                                 <polyline points="8 1 12 5 8 9"></polyline>

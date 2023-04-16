@@ -44,7 +44,7 @@ const Skills = () => {
 
                 <div className="skills-body">
                     {/* <img className='skills-image' src="https://dresma.ai/wp-content/uploads/2022/01/mern-stack-developer.gif"/> */}
-                    <img className='skills-image' src="https://www.dignited.com/wp-content/uploads/2022/08/top10lan-1024x576.jpg"/>
+                    <img className='skills-image' src="https://www.dignited.com/wp-content/uploads/2022/08/top10lan-1024x576.jpg" alt=''/>
                     {/* <img className='skills-image' src="https://deorwine.b-cdn.net/images/technology/mern-stack-banner.webp"/> */}
                     <div className="skills-row">
                         <ul class="list-column">

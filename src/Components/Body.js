@@ -6,7 +6,7 @@ import Services from './Services';
 import Skills from './Skills';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
-import Testimonials from './Testimonials';
+// import Testimonials from './Testimonials';
 
 
 const Body = () => {

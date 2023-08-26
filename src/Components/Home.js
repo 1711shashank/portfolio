@@ -37,7 +37,7 @@ const Home = () => {
                                     </li>
                                 </a>
                                 <a
-                                    href="https://twitter.com/KrShashankk"
+                                    href="https://leetcode.com/1711shashank"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

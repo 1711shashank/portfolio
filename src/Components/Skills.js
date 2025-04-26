@@ -6,7 +6,7 @@ const Skills = () => {
     const skillsArray = {
         development: [
             {
-                title: "HTML/CSS/JS",
+                title: "React Native",
                 id: 0,
             },
             {
@@ -14,7 +14,7 @@ const Skills = () => {
                 id: 1,
             },
             {
-                title: "LWC",
+                title: "HTML/CSS/JS",
                 id: 2,
             }
         ],

@@ -12,7 +12,7 @@ const About = () => {
                 <div className='about-right'>
                     <h4 className='head-text'> Who am I ? </h4>
                     <h2 className='main-head'> About me </h2>
-                    <p className='about-right-location'> Kolkata, India | React JS | Node | Salesforce</p>
+                    <p className='about-right-location'> Hyderabad, India | React | React Native | Node JS</p>
                     <p className='about-right-aboutMe'> As a developer, I'm passionate about coding and creating innovative solutions. But not everything about me is code snippets. I have a particular fondness for writing Shayari and expressing myself through poetry. I also love traveling and experiencing new cultures.</p>
                     <div class="about-resume-button">
                         <a href='https://drive.google.com/file/d/1LwqpTE7-CwWDk3FO0RDnU-McH2UEEwkp/view?usp=sharing' target="_blank" alt='' rel="noreferrer">

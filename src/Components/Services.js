@@ -31,7 +31,7 @@ const Services = () => {
                                 alt="web"
                                 className="service-icon"
                             />
-                            <h4 className="service-name">Salesforce Development</h4>
+                            <h4 className="service-name">Mobile App Development</h4>
                         </div>
                     </div>
                 </div>

@@ -25,7 +25,7 @@ const Contact = () => {
                             </h5>
 
                             <h4 className="contact-head-h4">Address :</h4>
-                            <h5 className="contact-head-h5"> Garia, Kolkata - 700152</h5>
+                            <h5 className="contact-head-h5"> Gachibowli, Hyderabad - 500032</h5>
                         </div>
                     </div>
 
